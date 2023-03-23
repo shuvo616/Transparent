@@ -35,3 +35,36 @@ a {
 img {
     width: 100%;
 }
+
+/* nav */
+.navbar .nav-link {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* hero */
+.hero {
+    background-image: url(images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.hero::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(21, 20, 51, 0.8);
+    z-index: -1;
+}
+
+.btn {
+    padding: 14px 18px;
+    border-width: 2px;
+    border-radius: 0;
+}
