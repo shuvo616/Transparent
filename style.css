@@ -46,6 +46,11 @@ img {
     box-shadow: var(--box-shadow);
 }
 
+/* logo */
+.logo {
+    width: 160px;
+}
+
 /* hero */
 .hero {
     background-image: url(images/cover.jpg);
@@ -220,4 +225,15 @@ section {
     color: var(--primary);
     background-color: transparent;
     border-color: var(--primarys);
+}
+
+/* Contact */
+form input.form-control {
+    height: 56px;
+}
+
+form .form-control {
+    border: transparent;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.07);
 }
