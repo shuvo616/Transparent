@@ -53,7 +53,7 @@ img {
 
 /* hero */
 .hero {
-    background-image: url(images/cover.jpg);
+    background-image: url(images/heroBG.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -68,7 +68,7 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(21, 20, 51, 0.8);
+    background-color: rgba(21, 20, 51, 0.6);
     z-index: -1;
 }
 
@@ -145,7 +145,7 @@ section {
 
 /* Features */
 .col-img {
-    background-image: url(images/cover2.jpg);
+    background-image: url(images/feature.jpg);
     background-position: center;
     background-size: cover;
     min-height: 500px;
@@ -230,6 +230,20 @@ section {
 /* Contact */
 form input.form-control {
     height: 56px;
+}
+
+/* Footer */
+.footer-top {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.footer-top a {
+    color: var(--body);
+}
+
+.footer-top a:hover {
+    color: var(--white);
 }
 
 form .form-control {
